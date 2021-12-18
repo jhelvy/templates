@@ -1,0 +1,30 @@
+---
+title: | 
+  | \Large \textbf{Title}
+author:
+  - John Paul Helveston, Ph.D.^[Engineering Management and Systems Engineering, George Washington University, Washington, D.C. USA]
+  - Author Two^[Institution Two]
+  - Author Three (from institution one)\footnotemark[1]
+abstract: |
+  This is the abstract.
+  It consists of two lines.
+documentclass: article
+geometry: margin=1in
+fontsize: 11pt
+bibliography: library.bib
+output:
+  pdf_document:
+    number_sections: true
+    includes:
+      in_header: "preamble.tex"
+---
+
+Main body text goes here
+
+Here's an example figure:
+
+```{r, echo=FALSE, fig.align='center', fig.cap="Figure 1 Caption", out.width="100%"}
+knitr::include_graphics("figs/fig1.png")
+```
+
+# References {-}
