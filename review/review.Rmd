@@ -1,0 +1,34 @@
+---
+title: "REVIEW of <paper ID>"
+bibliography: library.bib
+output:
+  pdf_document:
+    toc: false
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
+
+**Title**: 
+
+
+# Summary
+
+# Major Suggestions
+
+# Minor Suggestions
+
+# Figures
+
+Figures are important and are often central elements used in presenting findings to broad audiences, so I take them seriously and often provide specific suggestions to improve them in reviews I write. These are purely suggestions, and it is difficult to know whether they will actually result in an improved figure without seeing the revised figure...sometimes it takes several iterations.
+
+## Figure 1
+
+# Typos
+
+-
+-
+
+# References
