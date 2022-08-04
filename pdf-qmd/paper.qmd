@@ -1,0 +1,43 @@
+---
+title: "My document"
+author:
+  - John Paul Helveston, Ph.D.^[Engineering Management and Systems Engineering, George Washington University, Washington, D.C. USA]
+abstract: |
+  This is the abstract.
+  It consists of two lines.
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    number-depth: 3
+    colorlinks: true
+    documentclass: scrartcl
+    papersize: letter
+    fontsize: 12pt
+    geometry:
+      - margin=1in
+      - heightrounded
+    fontfamily: libertinus
+    include-in-header:
+      - preamble.tex
+bibliography: references.bib
+---
+
+Main body text goes here
+
+Here's an example figure:
+
+```{r}
+#| echo: false
+#| fig.align: 'center'
+#| fig.cap: "The caption"
+#| out.width: "50%"
+
+knitr::include_graphics("figs/fig1.png")
+```
+
+Here's a paragraph with a citation [@helveston2015]
+
+\singlespacing
+
+# References {.unnumbered}
